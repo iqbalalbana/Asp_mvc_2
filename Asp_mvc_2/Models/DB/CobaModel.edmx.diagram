@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e308936720b1403fb3bd7411d51642ce" Name="Diagram1">
+        <EntityTypeShape EntityType="CobaDBModel.LOOKUPRole" Width="1.5" PointX="0.625" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CobaDBModel.SYSUser" Width="1.5" PointX="4.375" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CobaDBModel.SYSUserProfile" Width="1.5" PointX="6.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CobaDBModel.SYSUserRole" Width="1.5" PointX="2.5" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="CobaDBModel.FK__SYSUserRo__LOOKU__21B6055D" ManuallyRouted="false" />
+        <AssociationConnector Association="CobaDBModel.FK__SYSUserRo__LOOKU__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="CobaDBModel.FK__SYSUserPr__SYSUs__1BFD2C07" ManuallyRouted="false" />
+        <AssociationConnector Association="CobaDBModel.FK__SYSUserPr__SYSUs__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="CobaDBModel.FK__SYSUserRo__SYSUs__22AA2996" ManuallyRouted="false" />
+        <AssociationConnector Association="CobaDBModel.FK__SYSUserRo__SYSUs__29572725" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
